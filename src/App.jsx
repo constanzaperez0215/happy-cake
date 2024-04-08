@@ -1,12 +1,18 @@
 import NavBar from './componentes/NavBar'
-import Home from './componentes/Home'
+import { Route, Routes } from 'react-router-dom'
+import {Contacto, Home, NotFound} from './layouts'
 
 function App() {
 
   return (
     <>
     <NavBar />
-    <Home />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/contacto' element={<Contacto/>} />
+      <Route path='*'element={<NotFound/>} />
+    </Routes>
+   
     </>
   )
 }

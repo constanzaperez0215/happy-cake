@@ -6,14 +6,14 @@ import Footer from './componentes/Footer'
 function App() {
 
   return (
-    <div>
-      <NavBar />
-      <Routes >
+    <div className='container'>
+      <NavBar className="navBar" />
+      <Routes className="routes">
         <Route path='/' element={<Home />} />
         <Route path='/contacto' element={<Contacto/>} />
         <Route path='*'element={<NotFound/>} />
       </Routes>
-      <Footer />
+      <Footer className="footer"/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: 'white' }} />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">
-            <Link className='nav-item nav-link' to='/' style={{ color: 'white' }}><i className="fa-solid fa-house"></i> Home</Link>
+            <Link className='nav-item nav-link' to='/home' style={{ color: 'white' }}><i className="fa-solid fa-house"></i> Home</Link>
             <Link className='nav-item nav-link' to='/contacto' style={{ color: 'white' }}><i className="fa-solid fa-phone"></i> Contacto</Link>
           </Nav>
         </Navbar.Collapse >

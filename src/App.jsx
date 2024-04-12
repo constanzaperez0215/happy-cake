@@ -1,4 +1,5 @@
 import NavBar from './componentes/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom'
 import {Contacto, Home, NotFound} from './layouts'
 import Footer from './componentes/Footer'

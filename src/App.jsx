@@ -9,7 +9,7 @@ function App() {
     <div className='container'>
       <NavBar className="navBar" />
       <Routes className="routes">
-        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/contacto' element={<Contacto/>} />
         <Route path='*'element={<NotFound/>} />
       </Routes>

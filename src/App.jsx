@@ -10,10 +10,10 @@ function App() {
       <NavBar className="navBar" />
       <Routes className="routes">
         <Route path='/' element={<Home />} />
-        <Route path='/contacto' element={<Contacto/>} />
-        <Route path='*'element={<NotFound/>} />
+        <Route path='/contacto' element={<Contacto />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer className="footer"/>
+      <Footer className="footer" />
     </div>
   )
 }

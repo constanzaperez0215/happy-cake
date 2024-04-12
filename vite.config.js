@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/happy-cake',
+  base: 'https://constanzaperez0215.github.io/happy-cake/',
   plugins: [react()]
 })
